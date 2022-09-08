@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 
-const { red, green } = require('colors');
+require('colors');
 const argv = require('minimist')(process.argv.slice(2));
 
 const converter = require('../lib/converter');
