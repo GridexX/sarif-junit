@@ -1,10 +1,10 @@
 {
   "name": "sarif-junit",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Convert your SARIF output into a JUnit XML file",
   "main": "lib/converter.js",
-  "bin" : {
-    "sarif-junit" : "bin/sarif-junit.js"
+  "bin": {
+    "sarif-junit": "bin/sarif-junit.js"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -24,5 +24,8 @@
   "bugs": {
     "url": "https://github.com/GridexX/sarif-junit/issues"
   },
-  "homepage": "https://github.com/GridexX/sarif-junit#readme"
+  "homepage": "https://github.com/GridexX/sarif-junit#readme",
+  "dependencies": {
+    "junit-report-builder": "^3.0.1"
+  }
 }
